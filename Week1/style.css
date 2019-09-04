@@ -1,0 +1,162 @@
+* {
+     box-sizing: border-box;
+}
+ body {
+     background-color: rgb(255, 255, 255);
+     margin: 0;
+     padding: 0;
+     font-size: 16px;
+     font-family: "Quicksand", sans-serif;
+     font-weight: 300;
+     position: relative;
+}
+ header {
+     height: 900px;
+     background-image: url(https://www.internetvideoarchive.com/wp-content/uploads/2018/06/Coder-1024x529.jpeg);
+     background-size: cover;
+     margin: 40px 45px 50px 45px;
+     border-radius: 5px;
+}
+ .nav-bar {
+     height: 60px;
+     background-color: transparent;
+     margin-bottom: 0;
+     color: white;
+     padding: 0.5rem 1rem;
+}
+ .nav-ul {
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     list-style-type: none;
+     line-height: 1.6em;
+     font-size: 14px;
+     font-family: "Quicksand", sans-serif;
+     margin-top: -10px;
+}
+ nav ul li {
+     padding: 20px;
+     font-size: 16px;
+}
+ .title-wrapper {
+     height: 900px;
+     text-align: start;
+     width: 100%;
+     display: flex;
+     flex-flow: column nowrap;
+     justify-content: center;
+     align-items: center;
+     color: white;
+}
+ .title {
+     color: #fff;
+     font-size: 72px;
+     font-weight: 700;
+     line-height: 1em;
+     margin-top: 20px;
+     margin-bottom: 40px;
+     font-family: "Quicksand", sans-serif;
+     font-weight: 300;
+     left: 20%;
+     bottom: 5%;
+     position: relative;
+}
+ .title-p {
+     font-size: 16px;
+}
+ .flex-kutusu {
+     margin-right: 2%;
+     margin-left: 2%;
+     display: flex;
+     flex-grow: 2;
+     flex-wrap: wrap;
+}
+ .sections {
+     height: 400px;
+     width: 100%;
+     border-radius: 10px;
+     background-image: url(https://shop.houseofmarbles.com/wp-content/uploads/2018/11/600011-Light-Dark-Blue-Pebbles-680x680.jpg);
+     background-size: cover;
+     filter: brightness(60%);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: white;
+}
+ h2 {
+     font-weight: 100;
+     margin-bottom: 120px;
+     font-size: 40px;
+     z-index: 2;
+}
+ .card-container {
+     width: 100%;
+     padding-right: 15px;
+     padding-left: 15px;
+     margin-right: auto;
+     margin-left: auto;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     font-family: "Quicksand", sans-serif;
+     margin-bottom: 90px;
+}
+ .card {
+     flex: 0 0 25%;
+     background-color: #82fcc9c0;
+     margin: 20px;
+     height: 500px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     padding: 10px;
+     border-radius: 10px;
+     margin-top: -170px;
+     display: flex;
+     flex-flow: column;
+     justify-content: flex-start;
+     align-items: center;
+     color: rgb(0, 0, 0);
+     font-weight: 500;
+     transition: all 0.5s ease-in-out;
+     transform: scale(0.9);
+}
+ i {
+     font-size: 50px;
+     color: rgb(255, 255, 255);
+     padding: 25px;
+     padding-bottom: 65px;
+}
+ .image-card {
+     background-image: url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/201706/web-development-647_062317054646.jpg);
+     background-size: cover;
+}
+ .image-card-2 {
+     background-image: url(https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png);
+     background-size: cover;
+     background-position: 50% 50%;
+}
+ .education-table {
+     padding-top: 20px;
+}
+ .contact {
+     display: flex;
+     flex-flow: column;
+}
+ .copyright {
+     margin-top: 30px;
+}
+ .nav-ul a {
+     text-decoration: none;
+     color: #fff;
+     transition: 0.25s all ease-in-out;
+}
+ .nav-ul a:hover {
+     color: hsla(0, 0%, 100%, 0.7);
+}
+ .card:hover {
+     background-color: #f1f0d1d3;
+     transform: scale(1) translateY(2%);
+     border-radius: 1rem;
+}
+ p, ul {
+     margin-top:25px;
+}
