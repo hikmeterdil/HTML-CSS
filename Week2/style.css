@@ -8,7 +8,6 @@
      background-position: center;
      background-attachment: fixed;
      text-align: justify;
-     hyphens: manual;
      color: rgb(57, 242, 255);
      font-family: 'Courgette', cursive;
      text-shadow: 1px 1px 1px rgb(252, 133, 242);
@@ -112,7 +111,7 @@
      background-color: #2c2c28d3;
      transform: scale(1) translateY(2%);
 }
-/* @media (min-width:1025px) {
+ @media (min-width:1600px) {
      #grid-floats li {
          width:calc(21% - 0.5rem);
          margin:1.9rem;
@@ -123,6 +122,13 @@
          margin-top:1.9rem;
          padding:0.4rem;
          margin-bottom:1.9rem;
+    }
+     #grid-floats li:nth-child(1) img {
+         width:70%;
+         margin-top:-4rem;
+    }
+     #grid-floats li:nth-child(1) p {
+         margin-top:-6rem;
     }
      #grid-flex li {
          width:calc(22% - 1rem);
@@ -135,7 +141,6 @@
          padding:0.4rem;
     }
 }
- */
  @media (max-width: 1023px) and (min-width: 600px) {
      #grid-floats li {
          width: calc(33% - 0.5rem);
